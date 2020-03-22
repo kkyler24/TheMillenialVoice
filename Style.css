@@ -1,0 +1,254 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("Assets/christine-roy-ir5MHI6rPg0-unsplash.jpg");
+}
+
+.nav {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(17, 18, 48);
+}
+
+.nav-link {
+    color: white;
+}
+
+h5 {
+    font-family: "Calligraffitti", cursive;
+    font-size: 50px;
+}
+
+#main {
+    padding: 0;
+    margin: 0 auto;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#worldUP {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+}
+
+#middle-panel {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #c6c6c6;
+    overflow: visible;
+}
+
+.aWrapper {
+    top: -30px;
+    position: relative;
+}
+
+#middle-panel-inner-div {
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+    /* top: -30px */
+    /* position: relative */
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.red-box-and-label {
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    text-align: center;
+}
+
+.red-box {
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 65px;
+    height: px;
+    background-color: #fcfbfb;
+    text-align: center;
+}
+
+.box-label {
+    padding: 0;
+    margin: 6px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+#address-form {}
+
+footer {
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+footer h3 {
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+
+footer .footer-above {
+    padding-top: 20px;
+    background-color: rgb(17, 18, 48);
+    text-align: center;
+}
+
+footer .footer-col {
+    /* margin-bottom: 30px; */
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    align-content: center;
+}
+
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: white;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-content: center;
+}
+
+address {
+    margin-bottom: 21px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+}
+
+.footer-above {
+    display: flex;
+}
+
+.blank-flex-container-1 {
+    flex: 1;
+}
+
+.blank-flex-container-2 {
+    flex: 1;
+}
+
+.footer-flex-container-main {
+    flex: 1;
+}
+
+.sidebar {
+    background-color: rgb(17, 18, 48);
+    flex: 1;
+    height: 2000px;
+    margin: 16px 0px 16px 0px;
+}
+
+.main-body-flex-container {
+    display: flex;
+}
+
+.form-flex-container {
+    flex: 3;
+    background-color: rgb(143, 197, 223);
+    margin: 16px 0px 16px 16px;
+}
+
+.carousel-item {
+    max-height: 450px;
+}
+
+#title-format {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar-image {
+    max-width: 300px;
+}
+
+.sidebar-image-holder {
+    padding-top: .8rem;
+    padding-left: 0.7rem;
+}
+
+.flex-group-name-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.group-name-container {
+    flex-basis: 23%;
+    height: 200px;
+    /* background-color: tomato; */
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: bold;
+    border: black solid 1px;
+}
+
+.jervis-container {
+    background-color: blanchedalmond;
+}
+
+.jim-container {
+    background-color: lightskyblue;
+}
+
+.ky-container {
+    background-color: lightgreen;
+}
+
+.mara-container {
+    background-color: tomato;
+}
+
+form {
+    background-color: white;
+}
+
+.group-member-image {
+    max-height: 140px;
+    border-radius: 20%;
+}
