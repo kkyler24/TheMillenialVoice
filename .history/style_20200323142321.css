@@ -20,12 +20,13 @@
 }
 
 #bigI{
-    height: 90px;
+    height: 100px;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 20%;
+    margin-bottom: 3%;
     width: fit-content;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 50px;
     }
     
 
@@ -97,12 +98,7 @@ h5, h1{
   width: 150px;
   height: 160px;
 }
-/* index page */
-#indext{
-    margin-bottom: 20%;
-    font-size: 50px;
-    
-}
+
 /* footer */
 footer {
     display: block;

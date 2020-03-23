@@ -20,16 +20,15 @@
 }
 
 #bigI{
-    height: 90px;
-    margin-top: 3%;
-    margin-left: 10%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 50%;
     width: fit-content;
-    font-weight: bolder;
-    font-size: 40px;
+    justify-content: center;
     }
     
 
-.h3style, #bigI{
+.h3style{
   font-family: 'Playfair Display', serif;
 }
 
@@ -97,12 +96,7 @@ h5, h1{
   width: 150px;
   height: 160px;
 }
-/* index page */
-#indext{
-    margin-bottom: 20%;
-    font-size: 50px;
-    
-}
+
 /* footer */
 footer {
     display: block;
