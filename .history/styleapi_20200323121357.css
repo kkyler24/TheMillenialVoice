@@ -1,0 +1,119 @@
+.text-background {
+    background-color: white;
+    padding: 20px;
+    border-top: blue solid 1px;
+    border-bottom: red solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+}
+
+
+/* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+
+#map {
+    height: 100%;
+}
+
+
+/* Optional: Makes the sample page fill the window. */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+#floating-panel {
+    width: 440px;
+}
+
+#place-id {
+    width: 250px;
+}
+
+.inner {
+    margin-left: 1rem;
+}
+
+.hover-image {
+    max-width: 200px;
+    max-height: 200px;
+    /* margin: auto; */
+}
+
+.container {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#representative-outputs {
+    /* border: black 1px solid; */
+    width: 80%;
+    /* background-color: rgb(213, 228, 255); */
+    margin: auto;
+}
+
+#address-form {
+    border: black 1px solid;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    /* float: right; */
+}
+
+.republican {
+    color: red;
+}
+
+.democrat {
+    color: blue;
+}
+
+.democratic-background {
+    background-color: rgb(213, 228, 255);
+}
+
+.republican-background {
+    background-color: rgb(248, 158, 158);
+}
+
+.neutral-background {
+    background-color: rgb(255, 255, 255);
+}
+
+.rep-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#rep-flex-name-container {
+    /* flex: 2; */
+    flex-basis: 65%;
+}
+
+#rep-flex-picture-container {
+    /* flex: 1; */
+    flex-basis: 30%;
+}
