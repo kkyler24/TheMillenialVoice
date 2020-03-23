@@ -115,17 +115,9 @@ form {
 }
 .aboutUs{
     height: max-content;
-    justify-content: center;
-    height:800px ;
 }
-
 #aboutProject{
    width: 100%;
    height: 400px;
-background-color:rgb(5, 61, 74);
-}
-
-.discover{
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    background-color:rgb(5, 61, 74);
 }

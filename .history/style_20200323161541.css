@@ -224,9 +224,9 @@ footer .footer-col {
 }
 
 .group-name-container {
-    width:250px ;
     flex-basis: 23%;
-    height: 500px;
+    height: 200px;
+    /* background-color: tomato; */
     text-align: center;
     padding-top: 0.5rem;
     font-weight: bold;

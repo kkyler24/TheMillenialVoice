@@ -116,7 +116,6 @@ form {
 .aboutUs{
     height: max-content;
     justify-content: center;
-    height:800px ;
 }
 
 #aboutProject{
@@ -128,4 +127,7 @@ background-color:rgb(5, 61, 74);
 .discover{
     font-family: 'Playfair Display', serif;
     font-size: 30px;
+}
+#title-format{
+    margin-top: 20px;
 }
