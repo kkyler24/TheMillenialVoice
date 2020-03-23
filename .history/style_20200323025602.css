@@ -139,10 +139,6 @@ footer .footer-above {
     text-align: center;
 }
 
-.footer-above{
-  display: flex;
-}
-
 footer .footer-col {
     margin-bottom: 30px;
 }
@@ -203,9 +199,12 @@ address {
     content: "\f16d";
 }
 
+.footer-above {
+    display: flex;
+}
+
 .blank-flex-container-1 {
-    flex: 2;
-    margin-right: 20px;
+    flex: 1;
 }
 
 .blank-flex-container-2 {
@@ -214,7 +213,6 @@ address {
 
 .footer-flex-container-main {
     flex: 1;
-    justify-content: center;
 }
 
 
@@ -227,10 +225,18 @@ address {
     margin: 40px 40px 40px 16px;
     flex: 3;
     background-color: rgb(143, 197, 223);
+    
 }
 
 .carousel-item {
     max-height: 500px;
+}
+
+#title-format {
+    
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
 }
 
 

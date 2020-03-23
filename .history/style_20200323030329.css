@@ -204,8 +204,7 @@ address {
 }
 
 .blank-flex-container-1 {
-    flex: 2;
-    margin-right: 20px;
+    flex: 1;
 }
 
 .blank-flex-container-2 {
@@ -227,10 +226,18 @@ address {
     margin: 40px 40px 40px 16px;
     flex: 3;
     background-color: rgb(143, 197, 223);
+    
 }
 
 .carousel-item {
     max-height: 500px;
+}
+
+#title-format {
+    
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
 }
 
 
