@@ -115,6 +115,7 @@ form {
 }
 .outSideDivAU{
     height: max-content;
+    justify-content: center;
     height:100%;
 }
 
@@ -136,6 +137,6 @@ color: snow;
 
 #aboutWediv{
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 30px;
 
 }

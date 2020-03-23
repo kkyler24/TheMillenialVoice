@@ -115,6 +115,7 @@ form {
 }
 .outSideDivAU{
     height: max-content;
+    justify-content: center;
     height:100%;
 }
 
@@ -123,7 +124,6 @@ form {
    height: 400px;
 background-color:rgb(5, 61, 74);
 font-family: 'Playfair Display', serif;
-color: snow;
 }
 
 .discover{
@@ -136,6 +136,6 @@ color: snow;
 
 #aboutWediv{
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 20px;
 
 }

@@ -224,9 +224,9 @@ footer .footer-col {
 }
 
 .group-name-container {
-    width:400px ;
+    width:300px ;
     flex-basis: 23%;
-    height: 700px;
+    height: 600px;
     text-align: center;
     padding-top: 0.5rem;
     font-weight: bold;
@@ -237,7 +237,7 @@ footer .footer-col {
 }
 
 #title-format{
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 
