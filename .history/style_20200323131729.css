@@ -16,15 +16,10 @@
 .repic{
  max-width: 500px;
  height: 350px;
+ justify-content: center;
+
  
 }
-
-#bigI{
-    height: 100px;
-    margin-top: 0px;
-    width: fit-content;
-    }
-    
 
 .h3style{
   font-family: 'Playfair Display', serif;
@@ -35,12 +30,7 @@ h5, h1{
     font-size: 50px;
 }
 #TMVT{
-  background-color: rgb(10, 10, 10);
-  height: 80px;
-  color: rgb(226, 223, 6);
-  font-weight: bold;
-  font-size: 40px;
-  width: 100%;
+  margin-bottom: 20%;
 }
 
 /* about us page */
@@ -59,6 +49,9 @@ h5, h1{
     height: 500px;
 }
 
+h1{
+  font-family: ;
+}
 .aWrapper {
     top: -30px;
     position: relative;
@@ -205,6 +198,12 @@ footer .footer-col {
     font-size: 20px;
 }
 
+#bigI{
+height: 100px;
+margin-top: 40px;
+justify-content: center;
+}
+
 .carousel-item {
     max-height: 500px;
 }
@@ -223,9 +222,6 @@ footer .footer-col {
     padding-top: 0.5rem;
     font-weight: bold;
     border: black solid 1px;
-}
-#textChange{
-    font-family: 'Playfair Display', serif;
 }
 
 

@@ -35,11 +35,13 @@ h5, h1{
     font-size: 50px;
 }
 #TMVT{
+  margin-bottom: 15%;
+  margin-top: 50%;
   background-color: rgb(10, 10, 10);
-  height: 80px;
+  height: 200px;
   color: rgb(226, 223, 6);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   width: 100%;
 }
 
