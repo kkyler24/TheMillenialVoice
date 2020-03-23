@@ -1,17 +1,4 @@
 
-
-.nv-button-group input {
-    display: none;
-}
-
-.nv-button-group input:checked + label,
-.nv-button-group input:checked + label:hover {
-    background: #fff;
-    color: #13aff0;
-    opacity: 1;
-}
-
-
 .nav {
     font-weight: bold;
     height: 4rem;
@@ -29,7 +16,7 @@
 .repic{
  width: 550px;
  height: 375px;
- 
+
  
 }
 
@@ -209,6 +196,12 @@ address {
     margin: 40px 40px 40px 16px;
     flex: 3;
     background-color: rgb(143, 197, 223);
+}
+
+#bigI{
+height: 100px;
+margin-top: 40px;
+justify-content: center;
 }
 
 .carousel-item {
