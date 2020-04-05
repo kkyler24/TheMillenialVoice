@@ -53,7 +53,6 @@ h5, h1{
     font-family: arial;
     font-weight: 600;
     font-size: 12px;
-    min-width: 575px;
 }
 
 #worldUP {
@@ -226,12 +225,11 @@ footer .footer-col {
 }
 
 .group-name-container {
-    margin:auto;
-    min-width: 217.73px;
+    width:400px ;
     flex-basis: 23%;
     height: 700px;
     text-align: center;
-    padding:0.5rem;
+    padding-top: 0.5rem;
     border: black solid 1px;
 }
 
@@ -243,12 +241,15 @@ footer .footer-col {
     margin-top: 20px;
 }
 
-
-/* // Medium devices */
-@media (max-width: 913.98px) {
+/* media Queries  */
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
     #fGNC{
         width: 100%;
-     }}
+    } }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { ... }

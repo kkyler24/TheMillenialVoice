@@ -53,7 +53,6 @@ h5, h1{
     font-family: arial;
     font-weight: 600;
     font-size: 12px;
-    min-width: 575px;
 }
 
 #worldUP {
@@ -104,6 +103,10 @@ h5, h1{
     font-size: 50px;
     
 }
+
+[class*="col-"] {
+    width: 100%;
+  }
 
 /* footer */
 footer {
@@ -219,22 +222,21 @@ footer .footer-col {
     max-height: 500px;
 }
 
-/* about us box */
+
 .flex-group-name-container {
     display: flex;
     justify-content: space-evenly;
 }
 
 .group-name-container {
-    margin:auto;
-    min-width: 217.73px;
+    width:400px ;
     flex-basis: 23%;
     height: 700px;
     text-align: center;
-    padding:0.5rem;
+    padding-top: 0.5rem;
+    font-weight: bold;
     border: black solid 1px;
 }
-
 #textChange{
     font-family: 'Playfair Display', serif;
 }
@@ -244,13 +246,5 @@ footer .footer-col {
 }
 
 
-/* // Medium devices */
-@media (max-width: 913.98px) {
-    #fGNC{
-        width: 100%;
-     }}
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
 
 

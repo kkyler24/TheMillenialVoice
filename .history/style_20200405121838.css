@@ -53,7 +53,6 @@ h5, h1{
     font-family: arial;
     font-weight: 600;
     font-size: 12px;
-    min-width: 575px;
 }
 
 #worldUP {
@@ -227,7 +226,7 @@ footer .footer-col {
 
 .group-name-container {
     margin:auto;
-    min-width: 217.73px;
+    max-width: ;
     flex-basis: 23%;
     height: 700px;
     text-align: center;

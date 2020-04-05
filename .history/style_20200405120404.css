@@ -53,7 +53,6 @@ h5, h1{
     font-family: arial;
     font-weight: 600;
     font-size: 12px;
-    min-width: 575px;
 }
 
 #worldUP {
@@ -227,11 +226,10 @@ footer .footer-col {
 
 .group-name-container {
     margin:auto;
-    min-width: 217.73px;
     flex-basis: 23%;
     height: 700px;
     text-align: center;
-    padding:0.5rem;
+    padding-top: 0.5rem;
     border: black solid 1px;
 }
 
@@ -244,8 +242,8 @@ footer .footer-col {
 }
 
 
-/* // Medium devices */
-@media (max-width: 913.98px) {
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
     #fGNC{
         width: 100%;
      }}
