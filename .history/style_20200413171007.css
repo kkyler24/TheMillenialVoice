@@ -12,12 +12,30 @@
     color: rgb(255, 255, 255);
 }
 
+/* resources pages */
+.repic{
+ max-width: 500px;
+ height: 350px;
+ 
+}
+    
+
+.h3style{
+  font-family: 'Playfair Display', serif;
+}
+
 h5, h1{
     font-family: "Calligraffitti", cursive;
     font-size: 50px;
 }
-
-
+#TMVT{
+  background-color: rgb(10, 10, 10);
+  height: 80px;
+  color: rgb(226, 223, 6);
+  font-weight: bold;
+  font-size: 40px;
+  width: 100%;
+}
 
 #worldUP {
     padding: 0;
@@ -134,11 +152,6 @@ footer .footer-col {
     align-content: center;
 }
 
-/* #address-from {
-    margin-bottom: 21px;
-    font-style: normal;
-    line-height: 1.42857143;
-} */
 
 .container {
     margin-right: auto;

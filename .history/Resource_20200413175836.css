@@ -1,0 +1,33 @@
+#bigI{
+    height: 90px;
+    margin-top: 3%;
+    margin-left: 38%;
+    width: fit-content;
+    font-weight: bolder;
+    font-size: 40px;
+    }
+
+h3style, #bigI{
+    font-family: 'Playfair Display', serif;
+      }
+
+ .repic{
+    max-width: 500px;
+    height: 350px;
+        
+    }
+
+#TMVT{
+    background-color: rgb(10, 10, 10);
+    height: 80px;
+    color: rgb(226, 223, 6);
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+     }
+
+.mb-5, .my-5, .ml-5 {
+    margin-bottom: 5rem!important;
+    margin-top: 5rem!important;
+    }
+
