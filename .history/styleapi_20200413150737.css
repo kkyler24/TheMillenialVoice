@@ -7,6 +7,12 @@
     border-right: white solid 1px;
 }
 
+
+/* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+
+/* Optional: Makes the sample page fill the window. */
+
 html,
 body {
     height: 100%;
@@ -107,7 +113,10 @@ form {
     background-color: rgb(224, 224, 224);
 
 }
-
+.outSideDivAU{
+    height: max-content;
+    height:100%;
+}
 
 
 

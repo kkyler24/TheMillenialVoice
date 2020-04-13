@@ -219,6 +219,20 @@ footer .footer-col {
     max-height: 500px;
 }
 
+/* about us box */
+/* .flex-group-name-container {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.group-name-container {
+    margin:10px;
+    /* min-width: 217.73px; */
+    /* height: 710px; */
+    text-align: center;
+    padding:0.5rem;
+    border: black solid 1px;
+}
 
 #textChange{
     font-family: 'Playfair Display', serif;
@@ -228,3 +242,14 @@ footer .footer-col {
     margin-top: 20px;
 }
 
+/* // Medium devices */
+/* @media (max-width: 900.98px) {
+    .fGNC{
+        width: 100%;
+        
+     }} */
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... }
+
+ */
