@@ -12,14 +12,7 @@ jobs:
     steps:
       - run: echo world
   print_name:
-    docker:
-      - image: cimg/base:2020.01
-    steps:
-      - checkout
-      - run: 
-          name: "echo an env var that is part of our project"
-          command:  
-            echo $MY_ENV_VAR
+
 
 
 # Orchestrate or schedule a set of jobs
@@ -27,8 +20,17 @@ workflows:
   # Name the workflow "welcome"
    test-env-vars:
     jobs:
-      - print_name
-    
+      - build
+  jobs:
+    build:
+    docker:
+      - image: cimg/base:2020.01
+    steps:
+      - checkout
+      - run: 
+          name: "echo an env var that is part of our project"
+          command:  
+            echo $name
   welcome:
     # Run the welcome/run job in its own container
     jobs:
