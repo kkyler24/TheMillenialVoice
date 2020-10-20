@@ -19,7 +19,7 @@ jobs:
       - checkout
       - run:
           name: "echo an env var that is part of our project"
-          command: echo $name
+          command: echo $MY_ENV_VAR
 
 # Orchestrate or schedule a set of jobs
 workflows:
