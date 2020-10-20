@@ -11,26 +11,24 @@ jobs:
       - image: circleci/node:13.8.0
     steps:
       - run: echo world
-  print_name:
-
-
-
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
-   test-env-vars:
+ workflows:
+  test-env-vars:
     jobs:
       - build
-  jobs:
-    build:
+
+jobs:
+  build:
     docker:
       - image: cimg/base:2020.01
     steps:
       - checkout
-      - run: 
+      - run:
           name: "echo an env var that is part of our project"
-          command:  
-            echo $name
+          command: |
+            echo $MY_ENV_VAR
   welcome:
     # Run the welcome/run job in its own container
     jobs:
@@ -38,3 +36,4 @@ workflows:
         - print_world:
             requires:
               - print_hello
+        
