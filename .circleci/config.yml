@@ -2,10 +2,12 @@
 version: 2.1
 
 jobs:
-  save_hello_world_output:
+ save_hello_world_output:
     docker:
       - image: circleci/node:13.8.0
     steps:
+      - run: echo hello
+  print_world:
       - run: echo "Hi Ky How you doing girl?" > ~/output.txt
       - persist_to_workspace:
         root: ~/
@@ -13,10 +15,10 @@ jobs:
           - output.txt
 
   print_output_file:
-    print_output_file:
     docker:
       - image: circleci/node:13.8.0
     steps:
+      - run: echo world
       - attach_workspace:
           at: ~/
       - run: Hi Ky How you doing girl? ~/output.txt
@@ -28,13 +30,10 @@ jobs:
       - run:
           name: "echo an env var that is part of our project"
           command: echo $Name
-# Orchestrate or schedule a set of jobs
 workflows:
-  # Name the workflow "welcome"
   test-env-vars:
     jobs:
       - print_name
-      - save_hello_world_output
       - print_output_file:
           requires:
             - save_hello_world_ouput

@@ -2,16 +2,24 @@
 version: 2.1
 
 jobs:
-  print_hello:
+ save_hello_world_output:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - run: echo hello
-  print_world:
+      - run: echo "Hi Ky How you doing girl?" > ~/output.txt
+      - persist_to_workspace:
+        root: ~/
+        paths:
+          - output.txt
+
+  print_output_file:
+    print_output_file:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - run: echo world
+      - attach_workspace:
+          at: ~/
+      - run: Hi Ky How you doing girl? ~/output.txt
   print_name:
     docker:
       - image: cimg/base:2020.01
@@ -27,7 +35,7 @@ workflows:
   test-env-vars:
     jobs:
       - print_name
-      - print_hello
-      - print_world:
+     - save_hello_world_output
+      - print_output_file:
           requires:
-            - print_hello
+            - save_hello_world_ouput
