@@ -6,7 +6,7 @@ jobs:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - run: echo "Hi Ky How you doing girl?" > ~/output.txt
+      - run: echo " Hi Ky How you doing girl?" > ~/output.txt
       - persist_to_workspace:
         root: ~/
         paths:
@@ -19,7 +19,8 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
-      - run: Hi Ky How you doing girl? ~/output.txt
+      - run: cat ~/output.txt
+
   print_name:
     docker:
       - image: cimg/base:2020.01
@@ -28,6 +29,7 @@ jobs:
       - run:
           name: "echo an env var that is part of our project"
           command: echo $Name
+
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"

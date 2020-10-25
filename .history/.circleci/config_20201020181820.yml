@@ -2,24 +2,16 @@
 version: 2.1
 
 jobs:
-  save_hello_world_output:
+  print_hello:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - run: echo "Hi Ky How you doing girl?" > ~/output.txt
-      - persist_to_workspace:
-        root: ~/
-        paths:
-          - output.txt
-
-  print_output_file:
-    print_output_file:
+      - run: echo hello
+  print_world:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - attach_workspace:
-          at: ~/
-      - run: Hi Ky How you doing girl? ~/output.txt
+      - run: echo world
   print_name:
     docker:
       - image: cimg/base:2020.01
@@ -28,13 +20,14 @@ jobs:
       - run:
           name: "echo an env var that is part of our project"
           command: echo $Name
+
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
   test-env-vars:
     jobs:
       - print_name
-      - save_hello_world_output
-      - print_output_file:
+      - print_hello
+      - print_world:
           requires:
-            - save_hello_world_ouput
+            - print_hello
