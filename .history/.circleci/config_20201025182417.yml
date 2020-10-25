@@ -10,14 +10,14 @@ jobs:
       - persist_to_workspace:
           root: ~/
           paths:
-            - output.txt
+          - output.txt
   print_output_file:
     docker:
       - image: circleci/node:13.8.0
     steps:
       - attach_workspace:
           at: ~/
-      - run: hi ky how you doing girl? ~/output.txt
+      - run: Hi Ky How you doing girl? ~/output.txt
 
   print_name:
     docker:
