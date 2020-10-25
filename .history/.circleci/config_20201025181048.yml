@@ -1,0 +1,64 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+jobs:
+<<<<<<< HEAD
+  save_hello_world_output:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+=======
+ save_hello_world_output:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - run: echo hello
+  print_world:
+>>>>>>> 48cc803b09170a79028dba2fed69464136368009
+      - run: echo "Hi Ky How you doing girl?" > ~/output.txt
+      - persist_to_workspace:
+        root: ~/
+        paths:
+          - output.txt
+
+  print_output_file:
+    print_output_file:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+<<<<<<< HEAD
+=======
+      - run: echo world
+>>>>>>> 48cc803b09170a79028dba2fed69464136368009
+      - attach_workspace:
+          at: ~/
+      - run: Hi Ky How you doing girl? ~/output.txt
+  print_name:
+    docker:
+      - image: cimg/base:2020.01
+    steps:
+      - checkout
+      - run:
+          name: "echo an env var that is part of our project"
+          command: echo $Name
+<<<<<<< HEAD
+# Orchestrate or schedule a set of jobs
+=======
+>>>>>>> 48cc803b09170a79028dba2fed69464136368009
+workflows:
+  test-env-vars:
+    jobs:
+      - print_name
+<<<<<<< HEAD
+      - save_hello_world_output
+      - print_output_file:
+          requires:
+=======
+      - print_hello
+      - print_world:
+     - save_hello_world_output
+      - print_output_file:
+          requires:
+            - print_hello
+>>>>>>> 48cc803b09170a79028dba2fed69464136368009
+            - save_hello_world_ouput
